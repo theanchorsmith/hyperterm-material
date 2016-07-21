@@ -2,7 +2,7 @@
   "name": "hyperterm-material",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/dperrera/hyperterm-material"
+    "url" : "https://github.com/theanchorsmith/hyperterm-material"
   },
   "version": "0.1.2",
   "description": "A material inspired theme for hyperterm.",
@@ -11,9 +11,9 @@
     "hyperterm"
   ],
   "author": {
-    "name": "Dan Perrera",
-    "email": "dan@foredesign.co",
-    "url": "https://foredesign.co"
+    "name": "Rick Ootes",
+    "email": "rick.ootes@gmail.com",
+    "url": "http://codedazur.nl"
   },
   "license": "ISC"
 }

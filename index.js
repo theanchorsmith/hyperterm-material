@@ -24,9 +24,10 @@ exports.decorateConfig = (config) => {
     ],
     css: `
       ${config.css || ''}
+
       .hyperterm_main {
         border: none !important;
-        background: #212121 !important;
+        background: #212121 !important;        
       }
       .header_header {
         background: #212121 !important;
@@ -79,7 +80,7 @@ exports.decorateConfig = (config) => {
       position: absolute;
       transform: scaleX(0);
       opacity: 0;
-      transition: 150ms all ease-in-out;
+      transition: transform 150ms ease-in-out, opacity 150ms ease-in-out;
     }
 
     .tab_tab:hover:before,
